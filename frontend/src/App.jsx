@@ -3,9 +3,9 @@ import UrlShortener from "./components/UrlShortener.jsx";
 
 function App() {
   return (
-    <div>
+    <section>
       <UrlShortener />
-    </div>
+    </section>
   );
 }
 

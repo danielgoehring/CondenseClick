@@ -43,13 +43,15 @@ function UrlShortener(props) {
 
   return (
     <>
-      <div className="flex justify-center items-center h-screen">
+      <section className="flex justify-center items-center h-screen">
         <form
           className="bg-white px-16 py-10 rounded-md"
           autoComplete="off"
           onSubmit={handleSubmit}
         >
-          <h1 className="text-3xl font-bold">CondenseClick</h1>
+          <header>
+            <h1 className="text-3xl font-bold">CondenseClick</h1>
+          </header>
           <div className="mt-6 text-left mb-4">
             <label className="font-bold mb-1">Enter URL:</label>
             <br />
@@ -106,7 +108,7 @@ function UrlShortener(props) {
           )}
           {/* Display the server response or error message */}
         </form>
-      </div>
+      </section>
     </>
   );
 }
